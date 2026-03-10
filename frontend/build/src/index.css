@@ -1,0 +1,208 @@
+/* Global ChatGPT Theme Overrides */
+body {
+  background-color: #0d0d0d !important;
+  color: #ECECF1 !important;
+}
+
+main {
+  min-height: 80vh;
+  background-color: #0d0d0d;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+/* Bootstrap Component Overrides for ChatGPT Theme */
+.navbar,
+.custom-navbar {
+  background-color: #0d0d0d !important;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ECECF1 !important;
+}
+
+.nav-link:hover {
+  color: #8E8EA0 !important;
+}
+
+.bg-primary {
+  background-color: #1a1a1a !important;
+}
+
+.card {
+  background-color: #1a1a1a !important;
+  border: 1px solid #2d2d2d !important;
+  color: #ECECF1 !important;
+}
+
+.card-title {
+  color: #ECECF1 !important;
+}
+
+.card-text {
+  color: #C5C5D2 !important;
+}
+
+.btn-primary {
+  background-color: #565869 !important;
+  border-color: #565869 !important;
+  color: #ECECF1 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #6d6d7d !important;
+  border-color: #6d6d7d !important;
+  color: #ECECF1 !important;
+}
+
+.btn-light {
+  background-color: #2d2d2d !important;
+  border-color: #3d3d3d !important;
+  color: #ECECF1 !important;
+}
+
+.btn-light:hover {
+  background-color: #3d3d3d !important;
+  color: #ECECF1 !important;
+}
+
+.btn-outline-success {
+  background-color: #2d2d2d !important;
+  color: #ECECF1 !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #2d2d2d !important;
+  color: #ECECF1 !important;
+  border-color: #565869 !important;
+}
+
+.form-control {
+  background-color: #2d2d2d !important;
+  border: 1px solid #3d3d3d !important;
+  color: #ECECF1 !important;
+}
+
+.form-control::placeholder {
+  color: #8E8EA0 !important;
+}
+
+.form-control:focus {
+  background-color: #2d2d2d !important;
+  border-color: #565869 !important;
+  color: #ECECF1 !important;
+  box-shadow: 0 0 0 0.2rem rgba(16, 163, 127, 0.25) !important;
+}
+
+/* Feature Icons */
+.feature-icon {
+  color: #8E8EA0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background-color: #565869 !important;
+  color: #ECECF1 !important;
+}
+
+.text-muted {
+  color: #8E8EA0 !important;
+}
+
+.text-white {
+  color: #ECECF1 !important;
+}
+
+footer {
+  background-color: #202123 !important;
+  border-top: 1px solid #565869;
+  color: #C5C5D2 !important;
+}
+
+/* Links */
+a {
+  color: #19C37D !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #10A37F !important;
+  text-decoration: underline;
+}
+
+/* Form Labels */
+.form-label,
+.form-check-label {
+  color: #ECECF1 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ECECF1 !important;
+}
+
+.lead {
+  color: #C5C5D2 !important;
+}
+
+.display-4 {
+  color: #ECECF1 !important;
+}
+
+/* Checkboxes and Radio Buttons */
+.form-check-input {
+  background-color: #40414F !important;
+  border-color: #565869 !important;
+}
+
+.form-check-input:checked {
+  background-color: #10A37F !important;
+  border-color: #10A37F !important;
+}
+
+.form-check-input:focus {
+  border-color: #10A37F !important;
+  box-shadow: 0 0 0 0.2rem rgba(16, 163, 127, 0.25) !important;
+}
+
+/* Shadows for cards */
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+/* Rules List Styling */
+.rules-list {
+  color: #ECECF1;
+}
+
+.rules-list h6 {
+  color: #ECECF1;
+  font-weight: 600;
+  border-bottom: 1px solid #2d2d2d;
+  padding-bottom: 8px;
+}
+
+.rules-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.rules-list li {
+  color: #C5C5D2;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.rules-list li:before {
+  content: "";
+  color: #565869;
+  position: absolute;
+  left: 0;
+}
